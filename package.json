@@ -1,10 +1,13 @@
 {
-  "name": "file-manager",
-  "version": "1.0.0",
+  "name": "@jack-rs/file-manager",
+  "version": "1.0.3",
   "description": "@jack-rs",
   "author": "jack-rs",
   "license": "MIT",
-  "repository": "jack-rs/file-manager",
+  "repository": "https://github.com/jack-rs/file-manager.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
